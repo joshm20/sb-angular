@@ -137,5 +137,8 @@
     "@schematics/angular:directive": {
       "prefix": "sb"
     }
+  },
+  "cli": {
+    "analytics": "347ac822-25bb-4645-af1f-cf00f3911f28"
   }
 }
