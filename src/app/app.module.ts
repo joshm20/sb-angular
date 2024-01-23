@@ -10,6 +10,7 @@ import { darkBWTheme } from './theme/dark-bw-theme';
 import { testTheme } from './theme/test-theme';
 import { uChicagoTheme } from './theme/uchicago-theme';
 import { darkTheme } from './theme/dark-theme';
+import { nightModeTheme } from './theme/night-mode-theme';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -278,7 +279,7 @@ import { TeacherReportComponent } from './teacher-report/teacher-report.componen
       }
     }),
     ThemeModule.forRoot({
-        themes: [lightTheme, jmuTheme, darkBWTheme, testTheme, uChicagoTheme, darkTheme],
+        themes: [lightTheme, jmuTheme, darkBWTheme, testTheme, uChicagoTheme, darkTheme, nightModeTheme],
         active: 'jmu' //'dark-bw'
     }),
   ],
