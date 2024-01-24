@@ -5,12 +5,20 @@ let black = '#000';
 let white = '#fff';
 
 let darkNavy = '#27374D';
-let gray = '#B2B2B2';
-let lightNavy = '#526D82';
-let lightGray = '#9DB2BF';
-let gray2 = '#798082';
-let babyBlue = '#b5dde8';
 let offwhiteBlue = '#DDE6ED';
+let gray = '#B2B2B2';
+let lightGray = '#9DB2BF';
+let lightNavy = '#526D82';
+let gunmetalGray = '#818589';
+let gray2 = '#323538';
+let egyptBlue = '#1434A4';
+
+
+
+let babyBlue = '#b5dde8';
+let babyBlueDark = '#b5ddff';
+
+let aqua = '#00FFFF';
 
 let red = '#A4232B';
 let orange = '#FFBD00';
@@ -28,7 +36,7 @@ export const nightModeTheme: Theme = {
     '--footer-background': darkNavy,
     '--on-footer-background': white,
 
-    '--default-icon-color': white,
+    '--default-icon-color': gray2,
 
     '--icon-button-background': white,
     '--on-icon-button-background': darkNavy,
@@ -42,8 +50,8 @@ export const nightModeTheme: Theme = {
 
     '--link': babyBlue,
     '--link-active': white,
-    '--link-hover': babyBlue,
-    '--link-visited': babyBlue,
+    '--link-hover': offwhiteBlue,
+    '--link-visited': offwhiteBlue,
 
     '--background-hover': white,
 
@@ -72,13 +80,13 @@ export const nightModeTheme: Theme = {
     '--drag-placeholder-background': lightGray, // Transparent box that appears when reorganizing epics/issues
     '--drag-placeholder-border': white,
 
-    '--arrow-background': red, //white,
-    '--on-arrow-background':red, //darkNavy,
+    '--arrow-background': white,
+    '--on-arrow-background': darkNavy,
 
-    '--selected-state-button-background': red, //darkNavy,
-    '--on-selected-state-button-background': red,//white,
-    '--unselected-state-button-icon': red,//darkNavy,
-    '--issue-state-card-background': red,//lightNavy,
+    '--selected-state-button-background': darkNavy,
+    '--on-selected-state-button-background': white,
+    '--unselected-state-button-icon': darkNavy,
+    '--issue-state-card-background': lightNavy,
 
     '--list-selected': darkNavy,
 

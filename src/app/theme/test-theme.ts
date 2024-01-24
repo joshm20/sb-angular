@@ -104,8 +104,8 @@ export const testTheme: Theme = {
 
     '--default-icon-color': orange,
 
-    '--icon-button-background': white,
-    '--on-icon-button-background': darkNavy,
+    '--icon-button-background': pink,
+    '--on-icon-button-background': brightred,
 
     '--card-shadow': lightblue,
     '--button-shadow': darkblue,
