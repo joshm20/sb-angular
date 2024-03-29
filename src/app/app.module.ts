@@ -142,6 +142,7 @@ import { TaskCompareComponent } from './task-compare/task-compare.component';
 import { ComparisonComponent } from './comparison/comparison.component';
 import { AcceptanceCriteriaCompareListComponent } from './acceptance-criteria-compare-list/acceptance-criteria-compare-list.component';
 import { TeacherReportComponent } from './teacher-report/teacher-report.component';
+import { CreateProjectComponent } from './create-project/create-project.component'; // New
 
 
 @NgModule({
@@ -246,6 +247,8 @@ import { TeacherReportComponent } from './teacher-report/teacher-report.componen
     ComparisonComponent,
     AcceptanceCriteriaCompareListComponent,
     TeacherReportComponent,
+
+    CreateProjectComponent
   ],
   // entryComponents: [ConfirmDialogComponent],
   imports: [
