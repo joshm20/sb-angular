@@ -3,6 +3,8 @@
 <div class="projects" *ngIf="projects | async; else progressSpinner">
   <div class="card-title">
     <mat-icon class="mr-3 sb-icon" fontSet="fas" fontIcon="fa-shapes" style="font-size: larger; overflow: visible;"></mat-icon> Your Projects
+    <!-- TODO: Check user is admin to display Add Project-->
+    <button (click)="nav.go('projects')">Create project</button>
   </div>
 
   <div class="text-left project-container">

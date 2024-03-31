@@ -9,6 +9,7 @@ import { SprintRetrospectiveTopLevelComponent } from '../sprint-retrospective-to
 import { DashboardTopLevelComponent } from '../dashboard-top-level/dashboard-top-level.component';
 import { EpicsViewComponent } from '../epics-view/epics-view.component';
 import { IssuesViewComponent } from '../issues-view/issues-view.component';
+import { CreateProjectComponent } from '../create-project/create-project.component';
 
 const routes: Routes = [
 	{ path: 'projects', component: ProjectsComponent },
@@ -24,7 +25,7 @@ const routes: Routes = [
 	{ path: 'projects/:id/execution', component: SprintExecutionTopLevelComponent },
 	{ path: 'projects/:id/retrospective', component: SprintRetrospectiveTopLevelComponent },
 	{ path: '', redirectTo: 'projects', pathMatch: 'full' },
-	// { path: ''} Add path to new add project button
+	{ path: 'projects/create-project', component: CreateProjectComponent} // Add path to new add project button
 ];
 
 @NgModule({

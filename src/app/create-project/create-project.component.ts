@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ProjectService } from '../project.service';
 
 @Component({
   selector: 'sb-create-project',
@@ -9,5 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./create-project.component.css']
 })
 export class CreateProjectComponent {
+  constructor(private projectService:ProjectService) { }
+
 
 }
