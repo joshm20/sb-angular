@@ -24,6 +24,7 @@ const routes: Routes = [
 	{ path: 'projects/:id/execution', component: SprintExecutionTopLevelComponent },
 	{ path: 'projects/:id/retrospective', component: SprintRetrospectiveTopLevelComponent },
 	{ path: '', redirectTo: 'projects', pathMatch: 'full' },
+	// { path: ''} Add path to new add project button
 ];
 
 @NgModule({
